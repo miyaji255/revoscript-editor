@@ -9,10 +9,10 @@ Offers CodeMirror 6 completion, hover help, search, highlighting, diagnostics, a
 ## Development
 
 ```sh
-npm install
-npm test
-npm run dev
-npm run build
+pnpm install --frozen-lockfile
+pnpm test
+pnpm dev
+pnpm build
 ```
 
 The GitHub Actions workflow builds and deploys to GitHub Pages. Set the Pages source to **GitHub Actions** in repository settings.
