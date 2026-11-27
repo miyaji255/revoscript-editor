@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ring-outer" x1="12" y1="6" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9165bc" />
+      <stop offset="55%" stop-color="#5880b4" />
+      <stop offset="100%" stop-color="#255390" />
+    </linearGradient>
+    <linearGradient id="ring-inner" x1="32" y1="15" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7be3f6" />
+      <stop offset="100%" stop-color="#4cc9e0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="#1b1b1b" />
+
+  <path
+    d="M 32 6 A 26 26 0 1 1 6.4 27.49"
+    stroke="url(#ring-outer)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M 32 15.5 A 16.5 16.5 0 1 1 23.75 46.29"
+    stroke="url(#ring-inner)"
+    stroke-width="4.5"
+    stroke-linecap="round"
+  />
+
+  <g stroke="#1b1b1b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 21 21 L 10 32 L 21 43 M 43 21 L 54 32 L 43 43 M 36 18 L 28 46" />
+  </g>
+
+  <g stroke-width="6.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 21 21 L 10 32 L 21 43 M 43 21 L 54 32 L 43 43" stroke="#ffffff" />
+    <path d="M 36 18 L 28 46" stroke="#5ee4fa" />
+  </g>
+</svg>

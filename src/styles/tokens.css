@@ -1,0 +1,127 @@
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --font-sans: 'Inter', 'Noto Sans JP', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', Consolas, monospace;
+
+  /* Revolution Idle Base UI (#1b1b1b / #282628 / #454648) */
+  --bg-app: #1b1b1b;
+  --bg-surface: #282628;
+  --bg-editor: #1e1e21;
+  --bg-elevated: #303036;
+  --bg-hover: #393b42;
+  --bg-active-line: #232a3a;
+  --bg-selection: rgba(37, 83, 144, 0.48);
+
+  --border-subtle: #38393d;
+  --border-strong: #454648;
+
+  --text-primary: #eef2f8;
+  --text-secondary: #a8b3c7;
+  --text-muted: #768196;
+
+  /* Cool Supernova Cyan Accent + Eternity Blue Primary CTA */
+  --accent: #4cc9e0;
+  --accent-hover: #73dcf0;
+  --accent-soft: rgba(76, 201, 224, 0.14);
+  --accent-contrast: #0c1722;
+
+  --btn-primary-bg: #255390;
+  --btn-primary-hover: #2f66ad;
+  --btn-primary-border: #5880b4;
+  --btn-primary-text: #f3f7ff;
+
+  /* Game Layer Tokens */
+  --infinity-deep: #2f1e40;
+  --infinity-mid: #5a4073;
+  --infinity-main: #613889;
+  --infinity-light: #9165bc;
+
+  --eternity-deep: #1d3067;
+  --eternity-main: #255390;
+  --eternity-steel: #5880b4;
+
+  /* Block Category Accents & Tints */
+  --cat-control: #4cc9e0;
+  --cat-control-bg: rgba(24, 37, 56, 0.58);
+  --cat-prestige: #5ad688;
+  --cat-prestige-bg: rgba(24, 52, 42, 0.48);
+  --cat-infinity: #9165bc;
+  --cat-infinity-bg: rgba(47, 30, 64, 0.72);
+  --cat-eternity: #5880b4;
+  --cat-eternity-bg: rgba(29, 48, 103, 0.65);
+  --cat-dilation: #8780df;
+  --cat-dilation-bg: rgba(39, 37, 74, 0.68);
+  --cat-unity: #46c4b5;
+  --cat-unity-bg: rgba(22, 54, 58, 0.52);
+
+  --success: #5ad688;
+  --error: #f26d7d;
+  --error-soft: rgba(242, 109, 125, 0.15);
+  --warning: #e5c365;
+  --warning-soft: rgba(229, 195, 101, 0.14);
+  --info: #5ea8ff;
+  --info-soft: rgba(37, 83, 144, 0.28);
+
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.52);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg-app: #edf1f7;
+  --bg-surface: #f7f9fc;
+  --bg-editor: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-hover: #e3eaf4;
+  --bg-active-line: #eff4fb;
+  --bg-selection: rgba(37, 83, 144, 0.18);
+
+  --border-subtle: #d5dfec;
+  --border-strong: #b6c5d9;
+
+  --text-primary: #141c2b;
+  --text-secondary: #43526c;
+  --text-muted: #6e7f99;
+
+  --accent: #255390;
+  --accent-hover: #1d3067;
+  --accent-soft: rgba(37, 83, 144, 0.12);
+  --accent-contrast: #ffffff;
+
+  --btn-primary-bg: #255390;
+  --btn-primary-hover: #1d3067;
+  --btn-primary-border: #1d3067;
+  --btn-primary-text: #ffffff;
+
+  --infinity-deep: #f3ecfa;
+  --infinity-mid: #7d52a8;
+  --infinity-main: #613889;
+  --infinity-light: #9165bc;
+
+  --eternity-deep: #eaf0fa;
+  --eternity-main: #255390;
+  --eternity-steel: #5880b4;
+
+  --cat-control: #0e7490;
+  --cat-control-bg: rgba(14, 116, 144, 0.06);
+  --cat-prestige: #15803d;
+  --cat-prestige-bg: rgba(21, 128, 61, 0.06);
+  --cat-infinity: #613889;
+  --cat-infinity-bg: rgba(97, 56, 137, 0.07);
+  --cat-eternity: #255390;
+  --cat-eternity-bg: rgba(37, 83, 144, 0.07);
+  --cat-dilation: #4f46e5;
+  --cat-dilation-bg: rgba(79, 70, 229, 0.06);
+  --cat-unity: #0f766e;
+  --cat-unity-bg: rgba(15, 118, 110, 0.06);
+
+  --success: #15803d;
+  --error: #c82333;
+  --error-soft: rgba(200, 35, 51, 0.1);
+  --warning: #a16207;
+  --warning-soft: rgba(161, 98, 7, 0.1);
+  --info: #255390;
+  --info-soft: rgba(37, 83, 144, 0.1);
+
+  --shadow-md: 0 12px 30px rgba(20, 28, 43, 0.14);
+}
